@@ -1,64 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css.css">
-    
-</head>
-<body>
-  
-  
-  <div style="text-align:center">
-    <h1>Traffic Light</h1>
-    <span id="red" class="dot" ></span>
-    <span id="yellow" class="dot"></span>
-    <span id='green' class="dot"></span>
-    <button onclick="ready()">Click</button>
-  </div>
-  <form id="form">
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" value="First Name"><br>
-    <label for="sname">Second Name:</label><br>
-    <input type="text" id="sname" name="sname" value="Second Name"><br>
-    <label for="lname">Last Name:</label><br>
-    <input type="text" id="lname" name="lname" value="Last Name"><br>
-    <label for="country">Choose country Code:</label>
-    <select id="country" name="country">
-      <option value="jor">jor</option>
-      <option value="ksa">ksa</option>
-      <option value="usa">usa</option>
-      <option value="rus">rus</option>
-    </select>
-    <label for="mobile">mobile:</label><br>
-    <input type="text" id="mobile" name="mobile" value="mobile"><br>
-    <label for="num">country code</label><br>
-    <input type="text" id="num" name="num" value="+962"><br>
-    <label for="Age">Age:</label><br>
-    <input type="text" id="Age" name="Age" value="Age"><br>
-    <label for="clender">clender</label>
-    <label for="birthday">Birthday:</label>
-    <input type="date" id="birthday" name="birthday">
-    <input type="radio" name="gender" value="male"> Male<br>
-    <input type="radio" name="gender" value="female"> Female<br>
-    <label for="password">password</label><br>
-    <input type="text" id="password" name="password" value="Pass[Not contain name or mobile]"><br>
-    <label for="Retry">Retry pass:</label><br>
-    <input type="text" id="Retry" name="Retry" value="Retry Pass"><br>
-    <label for="Email">Email:</label><br>
-    <input type="text" id="Email" name="Email" value="Email"><br>
-    <button type="submit">Submit form</button>
-  </form>
-  <p id="log"></p>
+    <link rel="stylesheet" href="css.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div style="text-align: center">
+      <h1><i class="fab fa-github"></i></i>Traffic Light</h1>
 
+      <span id="red" class="dot"></span>
+      <span id="yallow" class="dot"></span>
+      <span id="green" class="dot"></span>
+      <button onclick="ready()">Click</button>
+    </div>
+    <form id="form">
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" value="First Name" /><br />
+      <label for="sname">Second Name:</label><br />
+      <input type="text" id="sname" name="sname" value="Second Name" /><br />
+      <label for="lname">Last Name:</label><br />
+      <input type="text" id="lname" name="lname" value="Last Name" /><br />
+      <label for="country">Choose country Code:</label>
+      <select id="country" name="country">
+        <option value="jor">jor</option>
+        <option value="ksa">ksa</option>
+        <option value="usa">usa</option>
+        <option value="rus">rus</option>
+      </select>
+      <label for="mobile">mobile:</label><br />
+      <input type="text" id="mobile" name="mobile" value="mobile" /><br />
+      <label for="num">country code</label><br />
+      <input type="text" id="num" name="num" value="+962" /><br />
+      <label for="Age">Age:</label><br />
+      <input type="text" id="Age" name="Age" value="Age" /><br />
+      <label for="clender">clender</label>
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday" />
+      <input type="radio" name="gender" value="male" /> Male<br />
+      <input type="radio" name="gender" value="female" /> Female<br />
+      <label for="password">password</label><br />
+      <input
+        type="text"
+        id="password"
+        name="password"
+        value="Pass[Not contain name or mobile]"
+      /><br />
+      <label for="Retry">Retry pass:</label><br />
+      <input type="text" id="Retry" name="Retry" value="Retry Pass" /><br />
+      <label for="Email">Email:</label><br />
+      <input type="text" id="Email" name="Email" value="Email" /><br />
+      <button type="submit">Submit form</button>
+    </form>
+    <p id="log"></p>
 
-  <canvas id="myChart" width="400" height="400"></canvas>
+    <canvas id="myChart" width="400" height="400"></canvas>
 
     <script src="first.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.1/chart.min.js"></script>
     <script src="chart.js"></script>
-    
-</body>
+  </body>
 </html>
